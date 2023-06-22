@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background-image: url("assets/golf2.jpg")
 }
 
 ol, ul {
@@ -96,10 +95,9 @@ input, select, textarea {
 	}
 
 	body {
-		
 		background-image: url("assets/oxnard.JPG");
 		background-color: #a1daeb;
-		height: 300px;
+		height: 500px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -652,8 +650,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("assets/oxnard.jpg");
-			background-color: rgba(112, 155, 242, 0.5);
+			background-image: url("assets/oxnard.JPG");
+			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1117,7 +1115,7 @@ input, select, textarea {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1183,7 +1181,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #88a0f0;
+			background-color: #000000;
 		}
 
 /* Wrapper */
