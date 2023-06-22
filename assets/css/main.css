@@ -95,7 +95,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("assets/oxnard.JPG");
+		line-height: 1;
+		background-image: url("assets/bg.JPG");
 		background-color: #a1daeb;
 		height: 500px;
 		background-repeat: no-repeat;
