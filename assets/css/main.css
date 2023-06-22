@@ -95,8 +95,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("/Users/idesk/Desktop//adamshis.github.io/assets/oxnard.JPG");
-		/*background-image: url("https://adamshis.github.io/assets/golf2.jpg");*/
+		/*background-image: url("/Users/idesk/Desktop//adamshis.github.io/assets/oxnard.JPG");*/
+		background-image: url("https://adamshis.github.io/assets/golf2.jpg");
 		background-color: #8ce979;
 		height: 500px;
 		background-repeat: no-repeat;
