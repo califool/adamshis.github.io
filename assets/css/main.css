@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	background-image: url("assets/golf2.jpg")
 }
 
 ol, ul {
@@ -95,7 +95,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		line-height: 1;
+		background-image: url("assets/golf2.jpg");
+		background-color: #7ed0e9;
+		height: 115px;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -646,8 +651,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-image: url("assets/golf.jpg");
+			background-color: rgba(112, 155, 242, 0.5);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1177,7 +1182,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: #88a0f0;
 		}
 
 /* Wrapper */
