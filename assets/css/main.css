@@ -98,7 +98,7 @@ input, select, textarea {
 		/*background-image: url("/Users/idesk/Desktop//adamshis.github.io/assets/oxnard.JPG");*/
 		background-image: url("../oxnard.jpg");
 		background-color: #0a3801;
-		height: 500px;
+		height: 800px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -123,7 +123,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -924,20 +924,20 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 1px #70e863;
 				display: inline-block;
-				height: 2.25rem;
-				line-height: 2.25rem;
+				height: 4.75rem;
+				line-height: 4.75rem;
 				text-align: center;
-				width: 2.25rem;
+				width: 4.75rem;
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: rgba(16, 6, 48, 0.075);
 				}
 
 				ul.icons li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
+					background-color: rgba(127, 62, 233, 0.175);
 				}
 
 /* Table */
