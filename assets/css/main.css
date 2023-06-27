@@ -212,17 +212,17 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25rem;
-		color: #f51646;
+		color: #e355e8;
 		font-style: none;
 		line-height: 1.9;
 		letter-spacing: 0.5rem;
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.75rem;
 		color:#825487;
-		font-style: underline;
-		line-height: 1.4;
+		font-style: none;
+		line-height: 3.4;
 		letter-spacing: 0.5rem
 	}
 
@@ -923,21 +923,22 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-				border-radius: 100%;
+				background-color:rgb(8,8,8);
+				border-radius: 200%;
 				box-shadow: inset 0 0 0 1px #70e863;
 				display: inline-block;
-				height: 5.25rem;
-				line-height: 4.75rem;
+				height: 2.55rem;
+				line-height: 2.55rem;
 				text-align: center;
-				width: 4.75rem;
+				width: 2.55rem;
 			}
 
 				ul.icons li a:hover {
-					background-color: rgba(16, 6, 48, 0.075);
+					background-color: rgba(9, 48, 6, 0.075);
 				}
 
 				ul.icons li a:active {
-					background-color: rgba(127, 62, 233, 0.175);
+					background-color: rgba(62, 145, 233, 0.175);
 				}
 
 /* Table */
