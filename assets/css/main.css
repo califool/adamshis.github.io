@@ -98,7 +98,6 @@ input, select, textarea {
 		/*background-image: url("/Users/idesk/Desktop//adamshis.github.io/assets/oxnard.JPG");*/
 		background-image: url("../oxnard.jpg");
 		background-color: #12b1bc;
-		height: 1000px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
