@@ -505,8 +505,15 @@ var browser=function(){"use strict";var t={name:null,version:null,os:null,osVers
 			}, userConfig);
 
 			// Expand "target" if it's not a jQuery object already.
-				if (typeof config.target != 'jQuery')
-					config.target = $(config.target);
+				if (!(config.target instanceof jQuery) && typeof config.target !== 'string') {
+					config.target = $this;
+				} else {
+					try {
+						config.target = $(config.target);
+					} catch (e) {
+						config.target = $this;
+					}
+				}
 
 		// Panel.
 
